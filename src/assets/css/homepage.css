@@ -1,4 +1,6 @@
-
+html{
+  width: 100%;
+}
 .VueCarousel-pagination{
   margin-top: -80px !important;
   z-index: 10;
@@ -47,6 +49,7 @@
   height: 150px;
   width: 100%;
   flex: 1;
+  min-width: 300px;
 }
 
 .scrollWrap{
